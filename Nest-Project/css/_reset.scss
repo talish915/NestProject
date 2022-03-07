@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+#header-top{
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+ul{
+    margin: 0 0;
+}
+p{
+    margin: 0 0;
+}
+input{
+    outline: none;
+    border: none;
+}
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}
