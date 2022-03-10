@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop.css">
 </head>
 
 <body>
@@ -212,14 +212,14 @@
         <div id="navbar">
             <div class="navbar-left">
                 <div class="navbar-trending">
-                    <span><i class="fa-solid fa-border-all"></i> Trending Categories <i
+                    <span><i class="fa-solid fa-border-all"></i> Browse All Categories <i
                             class="fas fa-angle-down"></i></span>
                 </div>
             </div>
             <div class="navbar-center">
                 <ul class="navigation">
-                    <li>
-                        <img src="img/icon-hot-white.svg" alt="">
+                    <li class="deals">
+                        <img src="img/icon-hot.svg" alt="">
                         <a href="">Hot Deals</a>
                     </li>
                     <li class="home">
@@ -230,10 +230,10 @@
                             <li><a href="">Home 3</a></li>
                             <li><a href="">Home 4</a></li>
                             <li><a href="">Home 5</a></li>
-                            <li><a href="">Home 6</a></li>
+                            <li><a href="index.html">Home 6</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="about">
                         <a href="about.html">About</a>
                     </li>
                     <li class="shop">
@@ -243,7 +243,7 @@
                             <li><a href="">Shop Grid – Left Sidebar</a></li>
                             <li><a href="">Shop List – Right Sidebar</a></li>
                             <li><a href="">Shop List – Left Sidebar</a></li>
-                            <li><a href="shop.html">Shop - Wide</a></li>
+                            <li><a href="">Shop - Wide</a></li>
                             <li><a href="">Single Product</a></li>
                             <li><a href="">Shop – Filter</a></li>
                             <li><a href="">Shop – Wishlist</a></li>
@@ -349,34 +349,48 @@
                             <li><a href="">404 Page</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Contact</a></li>
+                    <li class="contact">
+                        <a href="">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <div class="navbar-right d-flex">
-                <img src="img/icon-headphone-white.svg" alt="">
+            <div class="navbar-right">
+                <img src="img/icon-headphone.svg" alt="">
                 <p>1900 - 888<span>24/7 Support Center</span></p>
             </div>
         </div>
     </section>
 
     <section id="slider">
-        <h2 class="text-center">What are you looking for?</h2>
-        <form class="form-subcriber d-flex text-center">
-            <i class="fa fa-magnifying-glass"></i>
-            <input type="email" placeholder="Your emaill address" tabindex="-1">
-            <button class="btn" type="submit">Subscribe</button>
-        </form>
+        <div class="text">
+            <h2>Snack</h2>
+            <div class="bread">
+                <a href="index.html"><i class="fas fa-house"></i></i>Home</a>
+                <p><i class="fa-solid fa-chevron-right"></i> Shop <i class="fa-solid fa-chevron-right"></i> Snack</p>
+            </div>
+        </div>
         <ul>
-            <li><a href="">Cake</a></li>
-            <li><a href="">Coffes</a></li>
-            <li><a href="">Pet Foods</a></li>
-            <li><a href="">Vegetables</a></li>
+            <li><a href=""><i class="fa-solid fa-x"></i>Cabbage</a></li>
+            <li><a class="brocc" href=""><i class="fa-solid fa-x"></i>Broccoli</a></li>
+            <li><a href=""><i class="fa-solid fa-x"></i>Artichoke</a></li>
+            <li><a href=""><i class="fa-solid fa-x"></i>Celery</a></li>
+            <li><a href=""><i class="fa-solid fa-x"></i>Spinach</a></li>
         </ul>
     </section>
 
     <section id="trending">
         <div class="container-fluid">
-            <h1 class="section-title">Trending items</h1>
+            <div class="head">
+                <h5>We found <span>29</span> items for you!</h5>
+                <div class="sort">
+                    <div class="sort-1">
+                        <p><i class="fa-solid fa-border-all"></i>Show: 50<i class="down fa-solid fa-angle-down"></i></p>
+                    </div>
+                    <div class="sort-2">
+                        <p><i class="fa-solid fa-border-all"></i>Sort By: Featured<i class="down fa-solid fa-angle-down"></i></p>
+                    </div>
+                </div>
+            </div>
             <div class="card-all">
                 <div class="card">
                     <div class="card-top">
@@ -1091,6 +1105,15 @@
                     </div>
                 </div>
             </div>
+            <div class="next">
+                <span><i class="fa-solid fa-arrow-left-long"></i></span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>...</span>
+                <span>6</span>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+            </div>
         </div>
     </section>
 
@@ -1286,262 +1309,71 @@
         </div>
     </section>
 
-    <section id="topSelling">
+    <section id="slider-2">
         <div class="container-fluid">
-            <div class="all-box">
-                    <div class="box">
-                        <h2>Top Selling</h2>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-1.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-2.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-3.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h2>Trending Products</h2>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-4.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-5.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-6.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h2>Recently added</h2>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-7.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-8.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-9.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h2>Top Rated</h2>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-10.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-11.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-box">
-                            <div class="box-left">
-                                <a href=""><img src="img/thumbnail-12.jpg" alt=""></a>
-                            </div>
-                            <div class="box-right">
-                                <a class="a-2" href="">Perdue Simply Smart Organics Gluten Free</a>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-stroke"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$24.85</span>
-                                    <span class="old-price">$26.8</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="slider-end">
+                <img src="img/banner-9.png" alt="">
+                <h2 class="text">Stay home & get your daily needs from our shop</h2>
+                <h5>Start You'r Daily Shopping with <span>Nest Mart</span></h5>
+                <form class="form-subcriber d-flex text-center">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <input type="email" placeholder="Your emaill address" tabindex="-1">
+                    <button class="btn" type="submit">Subscribe</button>
+                </form>
             </div>
+        </div>
+    </section>
+
+    <section id="best">
+        <div class="container-fluid">
+           <div class="all-box">
+                <div class="box">
+                    <div class="box-left">
+                        <img src="img/icon-1.svg" alt="">
+                    </div>
+                    <div class="box-right">
+                        <h5>Best prices & offers</h5>
+                        <p>Orders $50 or more</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-left">
+                        <img src="img/icon-2.svg" alt="">
+                    </div>
+                    <div class="box-right">
+                        <h5>Free delivery</h5>
+                        <p>24/7 amazing services</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-left">
+                        <img src="img/icon-3.svg" alt="">
+                    </div>
+                    <div class="box-right">
+                        <h5>Great daily deal</h5>
+                        <p>When you sign up</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-left">
+                        <img src="img/icon-4.svg" alt="">
+                    </div>
+                    <div class="box-right">
+                        <h5>Wide assortment</h5>
+                        <p>Mega Discounts</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-left">
+                        <img src="img/icon-5.svg" alt="">
+                    </div>
+                    <div class="box-right">
+                        <h5>Easy returns</h5>
+                        <p>Within 30 days</p>
+                    </div>
+                </div>
+           </div>
+        </div>
     </section>
 
     <footer id="footer">
