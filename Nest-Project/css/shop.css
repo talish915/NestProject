@@ -534,6 +534,7 @@ header #header-top .header-right .dropdown li:before {
           justify-content: space-between;
   padding: 0 1rem;
   position: relative;
+  z-index: 888;
 }
 
 #navbar .navbar-left .navbar-trending {
@@ -1398,6 +1399,7 @@ header #header-top .header-right .dropdown li:before {
   font-weight: 500;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  display: block;
 }
 
 #trending .card-all .card .card-bottom .a-1:hover {
@@ -1456,7 +1458,7 @@ header #header-top .header-right .dropdown li:before {
   transition: 0.2s;
 }
 
-#trending .card-all .card .card-bottom .card-price {
+#trending .card-all .card .card-bottom .bbottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1467,20 +1469,21 @@ header #header-top .header-right .dropdown li:before {
   margin-top: 20px;
 }
 
-#trending .card-all .card .card-bottom .card-price .product-price span {
+#trending .card-all .card .card-bottom .bbottom .prices span {
   font-family: 'Fredoka', sans-serif;
   color: #3BB77E;
   font-size: 19px;
   font-weight: 600;
 }
 
-#trending .card-all .card .card-bottom .card-price .product-price .old-price {
+#trending .card-all .card .card-bottom .bbottom .prices del {
   color: #7E7E7E;
   font-size: 14px;
   text-decoration: line-through;
+  font-weight: 600;
 }
 
-#trending .card-all .card .card-bottom .add-card .add {
+#trending .card-all .card .card-bottom .bbottom a .add-prod-basket {
   padding: 6px 20px;
   background-color: #DEF9EC;
   color: #29A56C;
@@ -1490,14 +1493,14 @@ header #header-top .header-right .dropdown li:before {
   transition: 0.3s;
 }
 
-#trending .card-all .card .card-bottom .add-card .add:hover {
+#trending .card-all .card .card-bottom .bbottom a .add-prod-basket:hover {
   background-color: #3BB77E;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #fff;
 }
 
-#trending .card-all .card .card-bottom .add-card .add i {
+#trending .card-all .card .card-bottom .bbottom a .add-prod-basket i {
   margin-right: 5px;
   font-size: 13px;
 }
@@ -2155,5 +2158,12 @@ header #header-top .header-right .dropdown li:before {
 #footer .footer-bottom .right p {
   font-size: 14px;
   color: #7E7E7E;
+}
+
+.NavFixed {
+  position: fixed !important;
+  width: 100% !important;
+  top: 0;
+  z-index: 9999;
 }
 /*# sourceMappingURL=shop.css.map */

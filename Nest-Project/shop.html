@@ -163,8 +163,8 @@
                                     <p class="price">$4000.00</p>
                                 </div>
                                 <div class="buttons">
-                                    <button class="btn-cart" type="button">View cart</button>
-                                    <button class="btn-checkout" type="button">Checkout</button>
+                                    <a class="btn-cart" href="cart.html">View cart</a>
+                                    <a class="btn-checkout" href="">Checkout</a>
                                 </div>
                             </div>
                         </div>
@@ -393,12 +393,12 @@
                 </div>
             </div>
             <div class="card-all">
-                <div class="card">
+                <div data-id="1" class="box card">
                     <div class="card-top">
                         <span class="card-hot">Hot</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-1-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-1-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-1-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-1-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -406,35 +406,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Seeds of Change Organic Quinoe Naturel</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Seeds of Change Organic Quinoe Naturel</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By<a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$28.85</span>
-                                <span class="old-price">$32.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">28.85</span></span>
+                                <del>$32.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="2" class="box card">
                     <div class="card-top">
-                        <span class="card-sale">Sale</span>
+                        <span class="card-sale">sale</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-2-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-2-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-2-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-2-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -442,35 +444,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Hodo Foods</a>
-                        <a class="a-2" href="product.html">All Natural Italian-Style Chicken Meatballs</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(3.5)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Hodo Foodsk</a>
+                            <a href="" class="name a-2">All Natural Italian-Style Chicken Meatballs</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(3.5)</span>
+                            </div>
+                            <span>By <a href="">Stouffer</a></span>
                         </div>
-                        <span>By <a href="">Stouffer</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$52.85</span>
-                                <span class="old-price">$55.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">52.85</span></span>
+                                <del>$55.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="3" class="box card">
                     <div class="card-top">
                         <span class="card-new">New</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-3-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-3-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-3-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-3-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -478,34 +482,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Angie’s Boomchickapop Sweet & Salty</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Angie’s Boomchickapop Sweet & Salty</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">StarKist</a></span>
                         </div>
-                        <span>By <a href="">StarKist</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$48.85</span>
-                                <span class="old-price">$52.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">48.85</span></span>
+                                <del>$52.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="4" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-4-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-4-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-4-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-4-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -513,35 +519,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Vegetables</a>
-                        <a class="a-2" href="product.html">Foster Farms Takeout Crispy Classic</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Vegetables</a>
+                            <a href="" class="name a-2">Foster Farms Takeout Crispy Classic</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$17.85</span>
-                                <span class="old-price">$19.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">17.85</span></span>
+                                <del>$19.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="5" class="box card">
                     <div class="card-top">
                         <span class="card-14">-14%</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-5-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-5-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-5-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-5-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -549,34 +557,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Pet Foods</a>
-                        <a class="a-2" href="product.html">Blue Diamond Almonds Lightly Naturel</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Pet Foods</a>
+                            <a href="" class="name a-2">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$23.85</span>
-                                <span class="old-price">$25.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">23.85</span></span>
+                                <del>$25.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="6" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-6-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-6-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-6-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-6-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -584,34 +594,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Hodo Foods</a>
-                        <a class="a-2" href="product.html">Chobani Complete Vanilla Greek Bottle</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Hodo Foods</a>
+                            <a href="" class="name a-2">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$54.85</span>
-                                <span class="old-price">$55.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">54.85</span></span>
+                                <del>$55.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="7" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-7-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-7-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-7-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-7-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -619,178 +631,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Meats</a>
-                        <a class="a-2" href="product.html">Canada Dry Ginger Ale – 2 L Bottle</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Meats</a>
+                            <a href="" class="name a-2">Canada Dry Ginger Ale – 2 L Bottle</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">32.85</span></span>
+                                <del>$33.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-top">
-                        <span class="card-sale">Sale</span>
-                        <a href="product.html">
-                            <img class="card-img" src="img/product-8-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-8-2.jpg" alt="">
-                        </a>
-                        <div class="product-action-1">
-                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
-                        </div>
-                    </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Encore Seafoods Stuffed Alaskan</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
-                        </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$35.85</span>
-                                <span class="old-price">$37.8</span>
-                            </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-top">
-                        <span class="card-hot">Hot</span>
-                        <a href="product.html">
-                            <img class="card-img" src="img/product-9-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-9-2.jpg" alt="">
-                        </a>
-                        <div class="product-action-1">
-                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
-                        </div>
-                    </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Coffes</a>
-                        <a class="a-2" href="product.html">Gorton’s Beer Battered Fish Fillets</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
-                        </div>
-                        <span>By <a href="">Old El Paso</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$23.85</span>
-                                <span class="old-price">$25.8</span>
-                            </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-top">
-                        <a href="product.html">
-                            <img class="card-img" src="img/product-10-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-10-2.jpg" alt="">
-                        </a>
-                        <div class="product-action-1">
-                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
-                        </div>
-                    </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Cream</a>
-                        <a class="a-2" href="product.html">Haagen-Dazs Caramel Cone Ice Cream</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(2.0)</span>
-                        </div>
-                        <span>By <a href="">Tyson</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$22.85</span>
-                                <span class="old-price">$24.8</span>
-                            </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-top">
-                        <span class="card-hot">Hot</span>
-                        <a href="product.html">
-                            <img class="card-img" src="img/product-1-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-1-2.jpg" alt="">
-                        </a>
-                        <div class="product-action-1">
-                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
-                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
-                        </div>
-                    </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Seeds of Change Organic Quinoe Naturel</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
-                        </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$28.85</span>
-                                <span class="old-price">$32.8</span>
-                            </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
+                <div data-id="8" class="box card">
                     <div class="card-top">
                         <span class="card-sale">Sale</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-2-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-2-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-8-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-8-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -798,35 +669,188 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Hodo Foods</a>
-                        <a class="a-2" href="product.html">All Natural Italian-Style Chicken Meatballs</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(3.5)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Encore Seafoods Stuffed Alaskan</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">Stouffer</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$52.85</span>
-                                <span class="old-price">$55.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">35.85</span></span>
+                                <del>$37.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="9" class="box card">
+                    <div class="card-top">
+                        <span class="card-hot">Hot</span>
+                        <a href="product.html">
+                            <img class="card-img first" src="img/product-9-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-9-2.jpg" alt="">
+                        </a>
+                        <div class="product-action-1">
+                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Coffes</a>
+                            <a href="" class="name a-2">Gorton’s Beer Battered Fish Fillets</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">Old El Paso</a></span>
+                        </div>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">28.85</span></span>
+                                <del>$32.8</del>
+                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="10" class="box card">
+                    <div class="card-top">
+                        <a href="product.html">
+                            <img class="card-img first" src="img/product-10-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-10-2.jpg" alt="">
+                        </a>
+                        <div class="product-action-1">
+                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Cream</a>
+                            <a href="" class="name a-2">Haagen-Dazs Caramel Cone Ice Cream</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(2.0)</span>
+                            </div>
+                            <span>By <a href="">Tyson</a></span>
+                        </div>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">22.85</span></span>
+                                <del>$24.8</del>
+                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="1" class="box card">
+                    <div class="card-top">
+                        <span class="card-hot">Hot</span>
+                        <a href="product.html">
+                            <img class="card-img first" src="img/product-1-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-1-2.jpg" alt="">
+                        </a>
+                        <div class="product-action-1">
+                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Seeds of Change Organic Quinoe Naturel</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By<a href="">NestFood</a></span>
+                        </div>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">28.85</span></span>
+                                <del>$32.8</del>
+                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="2" class="box card">
+                    <div class="card-top">
+                        <span class="card-sale">sale</span>
+                        <a href="product.html">
+                            <img class="card-img first" src="img/product-2-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-2-2.jpg" alt="">
+                        </a>
+                        <div class="product-action-1">
+                            <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-shuffle"></i></a>
+                            <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Hodo Foodsk</a>
+                            <a href="" class="name a-2">All Natural Italian-Style Chicken Meatballs</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(3.5)</span>
+                            </div>
+                            <span>By <a href="">Stouffer</a></span>
+                        </div>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">52.85</span></span>
+                                <del>$55.8</del>
+                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="3" class="box card">
                     <div class="card-top">
                         <span class="card-new">New</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-3-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-3-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-3-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-3-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -834,34 +858,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Angie’s Boomchickapop Sweet & Salty</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Angie’s Boomchickapop Sweet & Salty</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">StarKist</a></span>
                         </div>
-                        <span>By <a href="">StarKist</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$48.85</span>
-                                <span class="old-price">$52.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">48.85</span></span>
+                                <del>$52.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="4" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-4-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-4-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-4-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-4-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -869,35 +895,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Vegetables</a>
-                        <a class="a-2" href="product.html">Foster Farms Takeout Crispy Classic</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Vegetables</a>
+                            <a href="" class="name a-2">Foster Farms Takeout Crispy Classic</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$17.85</span>
-                                <span class="old-price">$19.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">17.85</span></span>
+                                <del>$19.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="5" class="box card">
                     <div class="card-top">
                         <span class="card-14">-14%</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-5-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-5-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-5-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-5-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -905,34 +933,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Pet Foods</a>
-                        <a class="a-2" href="product.html">Blue Diamond Almonds Lightly Naturel</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Pet Foods</a>
+                            <a href="" class="name a-2">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$23.85</span>
-                                <span class="old-price">$25.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">23.85</span></span>
+                                <del>$25.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="6" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-6-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-6-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-6-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-6-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -940,34 +970,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Hodo Foods</a>
-                        <a class="a-2" href="product.html">Chobani Complete Vanilla Greek Bottle</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Hodo Foods</a>
+                            <a href="" class="name a-2">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$54.85</span>
-                                <span class="old-price">$55.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">54.85</span></span>
+                                <del>$55.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="7" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-7-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-7-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-7-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-7-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -975,35 +1007,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Meats</a>
-                        <a class="a-2" href="product.html">Canada Dry Ginger Ale – 2 L Bottle</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Meats</a>
+                            <a href="" class="name a-2">Canada Dry Ginger Ale – 2 L Bottle</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">32.85</span></span>
+                                <del>$33.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="8" class="box card">
                     <div class="card-top">
                         <span class="card-sale">Sale</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-8-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-8-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-8-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-8-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -1011,35 +1045,37 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Snack</a>
-                        <a class="a-2" href="product.html">Encore Seafoods Stuffed Alaskan</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Snack</a>
+                            <a href="" class="name a-2">Encore Seafoods Stuffed Alaskan</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">NestFood</a></span>
                         </div>
-                        <span>By <a href="">NestFood</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$35.85</span>
-                                <span class="old-price">$37.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">35.85</span></span>
+                                <del>$37.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="9" class="box card">
                     <div class="card-top">
                         <span class="card-hot">Hot</span>
                         <a href="product.html">
-                            <img class="card-img" src="img/product-9-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-9-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-9-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-9-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -1047,34 +1083,36 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Coffes</a>
-                        <a class="a-2" href="product.html">Gorton’s Beer Battered Fish Fillets</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <span>(4.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Coffes</a>
+                            <a href="" class="name a-2">Gorton’s Beer Battered Fish Fillets</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <span>By <a href="">Old El Paso</a></span>
                         </div>
-                        <span>By <a href="">Old El Paso</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$23.85</span>
-                                <span class="old-price">$25.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">28.85</span></span>
+                                <del>$32.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div data-id="10" class="box card">
                     <div class="card-top">
                         <a href="product.html">
-                            <img class="card-img" src="img/product-10-1.jpg" alt="">
-                            <img class="card-hover-img" src="img/product-10-2.jpg" alt="">
+                            <img class="card-img first" src="img/product-10-1.jpg" alt="">
+                            <img class="card-hover-img second" src="img/product-10-2.jpg" alt="">
                         </a>
                         <div class="product-action-1">
                             <a class="action-btn" href=""><i class="fas fa-heart"></i></a>
@@ -1082,26 +1120,28 @@
                             <a class="action-btn" href=""><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="card-bottom">
-                        <a class="a-1" href="">Cream</a>
-                        <a class="a-2" href="product.html">Haagen-Dazs Caramel Cone Ice Cream</a>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-stroke"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <span>(2.0)</span>
+                    <div class="bottom card-bottom">
+                        <div class="btop">
+                            <a href="" class="cat a-1">Cream</a>
+                            <a href="" class="name a-2">Haagen-Dazs Caramel Cone Ice Cream</a>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(2.0)</span>
+                            </div>
+                            <span>By <a href="">Tyson</a></span>
                         </div>
-                        <span>By <a href="">Tyson</a></span>
-                        <div class="card-price">
-                            <div class="product-price">
-                                <span>$22.85</span>
-                                <span class="old-price">$24.8</span>
+                        <div class="bbottom">
+                            <div class="prices">
+                                <span>$ <span class="price-value">22.85</span></span>
+                                <del>$24.8</del>
                             </div>
-                            <div class="add-card">
-                                <a class="add" href=""><i class="fas fa-cart-shopping"></i>Add </a>
-                            </div>
+                            <a href="">
+                                <span class="add-prod-basket"><i class="fas fa-cart-shopping"></i>Add</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1481,5 +1521,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="js/main.js"></script>
-
+<script src="js/scrolnav.js"></script>
+<script src="js/slick.js"></script>
 </html>
